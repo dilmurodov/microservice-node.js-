@@ -1,0 +1,14 @@
+# POST add comments
+
+POST http://127.0.0.1:4001/posts/6288aefd3c3924d0f67ad259/comments
+Content-Type: application/json
+
+{
+  "content": "im a comment"
+}
+
+###
+
+# GET particular comment
+
+GET http://127.0.0.1:4001/posts/6288aefd3c3924d0f67ad259/comments

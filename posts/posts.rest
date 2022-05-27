@@ -1,0 +1,14 @@
+# POST blogs post
+
+POST http://127.0.0.1:4000/posts
+Content-Type: application/json
+
+{
+  "title": "New Post"
+}
+
+###
+
+# GET all posts
+
+GET http://127.0.0.1:4000/posts
